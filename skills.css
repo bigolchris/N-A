@@ -1,0 +1,18 @@
+* {
+    font-family: 'Cairo', sans-serif;
+    background-color: #dad7cd;
+}
+
+h1 {
+    text-align: center;
+}
+
+.my_skills {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 25em;
+    height: 25em;
+    padding-left: 67em;
+}
