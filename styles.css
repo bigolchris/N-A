@@ -1,37 +1,43 @@
 * {
-    font-family: 'Cairo', sans-serif;
-    background-color: #dad7cd;
+  font-family: "Cairo", sans-serif;
+  background-color: #dad7cd;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .nav_section {
-    
-    text-align: right;
+  text-align: right;
 }
 
+.section_main {
+  display: flex;
+  justify-content: center;
+}
 .intro_section {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    width: 25em;
-    height: 25em;
-    padding-left: 67em;
-  }
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 
+  justify-content: center;
+  width: 25em;
+  height: 25em;
+}
+
+.section_progress {
+  display: flex;
+
+  justify-content: center;
+}
 
 .career_section {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    width: 25em;
-    height: 25em;
-    padding-left: 67em;  
-    
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 25em;
+  height: 25em;
 }
 
 /* .car_photo {
@@ -44,14 +50,18 @@ h1 {
     align-items: center;
 } */
 
+.beach_section {
+  position: absolute;
+  bottom: 31em;
+  left: 5em;
+}
+
 .beach_photo {
-    padding-top: 150px;
-    padding-bottom: 150px;
-    margin: 0%;
-    padding-left: 1070px;
-    padding-right: 1070px;
-    width: 400px;
-    border-radius: 60%;
-    display: flex;
-    align-items: center;
+  margin-top: 3em;
+  margin: 0%;
+  border: 1px solid black;
+  width: 400px;
+  border-radius: 4em;
+  display: flex;
+  align-items: center;
 }
